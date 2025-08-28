@@ -1,0 +1,45 @@
+<svg width="1330" height="1100" viewBox="0 0 1330 1100" xmlns="http://www.w3.org/2000/svg" font-family="Segoe UI,Arial,sans-serif">
+  <style>
+    .core { fill: #e0f7fa; stroke: #0097a7; stroke-width: 2; }
+    .platform { fill: #e1bee7; stroke: #7b1fa2; stroke-width: 2; }
+    .optional { fill: #ffe082; stroke: #fbc02d; stroke-width: 2; }
+    .title { font-size: 30px; font-weight: bold; fill: #333; }
+    .label { font-size: 18px; font-weight: bold; fill: #222; }
+    .small { font-size: 14px; }
+    .arrow { stroke: #666; stroke-width: 2; marker-end: url(#arrowhead);}
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7"
+      refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+    </marker>
+  </defs>
+  <!-- Title -->
+  <text x="50%" y="48" text-anchor="middle" class="title">OpenT3Base Architecture Overview</text>
+  <!-- Core modules -->
+  <rect x="90" y="130" width="180" height="55" rx="16" class="core"/>
+  <text x="180" y="163" text-anchor="middle" class="label">PLM</text>
+  <text x="180" y="183" text-anchor="middle" class="small">Product Lifecycle Mgt</text>
+
+  <rect x="90" y="220" width="180" height="55" rx="16" class="core"/>
+  <text x="180" y="253" text-anchor="middle" class="label">MRP</text>
+  <text x="180" y="273" text-anchor="middle" class="small">Material Requirements</text>
+
+  <rect x="90" y="310" width="180" height="55" rx="16" class="core"/>
+  <text x="180" y="343" text-anchor="middle" class="label">SCM</text>
+  <text x="180" y="363" text-anchor="middle" class="small">Supply Chain Mgt</text>
+
+  <rect x="400" y="175" width="180" height="55" rx="16" class="core"/>
+  <text x="490" y="208" text-anchor="middle" class="label">MES</text>
+  <text x="490" y="228" text-anchor="middle" class="small">Manufacturing Exec</text>
+
+  <rect x="400" y="270" width="180" height="55" rx="16" class="core"/>
+  <text x="490" y="303" text-anchor="middle" class="label">ERP</text>
+  <text x="490" y="323" text-anchor="middle" class="small">Enterprise Resource</text>
+
+  <rect x="720" y="120" width="180" height="55" rx="16" class="core"/>
+  <text x="810" y="153" text-anchor="middle" class="label">SALES</text>
+  <text x="810" y="173" text-anchor="middle" class="small">Sales & Commerce</text>
+
+  <rect x="720" y="200" width="180" height="55" rx="16" class="core"/>
+  <text x="810" y="233"
